@@ -14,7 +14,11 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5200268300"))
 PORT = os.environ.get("PORT", "8080")
 
 # Database
-DB_URI = os.environ.get("DB_URI", "mongodb+srv://sn117020:g3tULq1KLqxgzfgd@cluster0.ju3tzdx.mongodb.net/?retryWrites=true&w=majority&appName=InfiniteLinkBot")DB_NAME = os.environ.get("DB_NAME", "Infinite_Link_Bot")
+DB_URI = os.environ.get(
+    "DB_URI",
+    "mongodb+srv://sn117020:g3tULq1KLqxgzfgd@cluster0.ju3tzdx.mongodb.net/?retryWrites=true&w=majority&appName=InfiniteLinkBot"
+)
+
 DB_NAME = os.environ.get("DB_NAME", "Infinite_Link_Bot")
 
 #Auto approve 
