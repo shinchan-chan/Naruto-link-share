@@ -34,7 +34,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "40"))
 START_PIC_FILE_ID = "https://ibb.co/cKddjnPq"
 START_IMG = "https://graph.org/file/619532b39d1a2d099f4ee-d29ee5d18474d7f718.jpg"
 # Messages
-START_MSG = f"""<b>›› ʜᴇʏ!!, {mention}\n\n
+START_MSG = """<b>›› ʜᴇʏ!!, {mention}\n\n
 <blockquote expandable>ʟᴏᴠᴇ ᴛᴏ ᴡᴀᴛᴄʜ ᴀɴɪᴍᴇ sᴇʀɪᴇs ᴀɴᴅ ᴍᴏᴠɪᴇs? ɪ ᴀᴍ ᴍᴀᴅᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ғɪɴᴅ ᴡʜᴀᴛ ʏᴏᴜ'ʀᴇ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ.</blockquote></b>"""
 HELP = os.environ.get("HELP_MESSAGE", "<b><blockquote expandable>» Creator: <a href=https://t.me/DoraShin_hlo>Gojo</a>\n» Anime Channel: <a href=https://t.me/infinite_animes>Infinite_Animes</a>\n» 𝐇ᴇɴᴛᴀɪ 𝐂ʜᴀɴɴᴇʟ: <a href=https://t.me/+9DcMYIikk44xMzA1>𝐇ᴇɴᴛᴀɪ</a>\n» ᴏᴡɴᴇʀ: <a href=https://t.me/Devil_Eyes_Xe>Unknown</a></b>")
 ABOUT = os.environ.get("ABOUT_MESSAGE", "<b><blockquote expandable>This bot is developed for to securely share Telegram channel links with temporary invite links, protecting your channels from copyright issues.</b>")
